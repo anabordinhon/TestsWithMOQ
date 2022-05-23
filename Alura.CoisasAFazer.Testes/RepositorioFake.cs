@@ -33,7 +33,7 @@ namespace Alura.CoisasAFazer.Testes
 
         public IEnumerable<Tarefa> ObtemTarefas(Func<Tarefa, bool> filtro)
         {
-            throw new NotImplementedException();
+            return lista.Where(filtro);
         }
     }
 }
