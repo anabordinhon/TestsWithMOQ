@@ -29,6 +29,6 @@ namespace Alura.CoisasAFazer.Services.Handlers
 
             //salvar tarefas
             _repo.AtualizarTarefas(tarefas.ToArray());
-        }
+        }        
     }
 }
